@@ -2,30 +2,7 @@
 	"type": "interface",
 	"name": "Navigator",
 	"inheritance": null,
-	"members": [
-		{
-			"type": "attribute",
-			"name": "mediaSession",
-			"idlType": {
-				"type": "attribute-type",
-				"extAttrs": [],
-				"generic": "",
-				"nullable": false,
-				"union": false,
-				"idlType": "MediaSession"
-			},
-			"extAttrs": [
-				{
-					"type": "extended-attribute",
-					"name": "SameObject",
-					"rhs": null,
-					"arguments": []
-				}
-			],
-			"special": "",
-			"readonly": true
-		}
-	],
+	"members": [],
 	"extAttrs": [
 		{
 			"type": "extended-attribute",

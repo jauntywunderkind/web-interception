@@ -1,10 +1,52 @@
 {
 	"type": {
-		"type": "string",
-		"enum": [
-			"interface"
-		},
+		"type": "equal",
+		"value": "interface"
 	},
 	"name": {
+		"type": "equal",
+		"value": "Navigator"
+	},
+	"inheritance": {
+		"type": "equal",
+		"value": null
+	},
+	"members": {
+		"type": "array",
+		"props": {}
+	},
+	"extAttrs": {
+		"type": "array",
+		"props": {
+			"type": {
+				"type": "equal",
+				"value": "extended-attribute"
+			},
+			"name": {
+				"type": "equal",
+				"value": "Exposed"
+			},
+			"rhs": {
+				"type": "object",
+				"props": {
+					"type": {
+						"type": "equal",
+						"value": "identifier"
+					},
+					"value": {
+						"type": "equal",
+						"value": "Window"
+					}
+				}
+			},
+			"arguments": {
+				"type": "array",
+				"props": {}
+			}
+		}
+	},
+	"partial": {
+		"type": "equal",
+		"value": true
 	}
 }
