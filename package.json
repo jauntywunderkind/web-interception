@@ -19,6 +19,7 @@
 	"dependencies": {
 		"arrify": "^2.0.1",
 		"es-main": "^1.0.2",
+		"fastest-validator": "^1.10.0",
 		"webidl2": "^23.13.1"
 	}
 }

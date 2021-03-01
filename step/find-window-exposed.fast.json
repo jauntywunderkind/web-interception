@@ -7,10 +7,6 @@
 		"type": "equal",
 		"value": "Navigator"
 	},
-	"inheritance": {
-		"type": "equal",
-		"value": null
-	},
 	"members": {
 		"type": "array",
 		"props": {}

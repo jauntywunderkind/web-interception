@@ -11,7 +11,7 @@ export async function runSteps( files, steps= findAllSteps()){
 	const idl= await loadIdls( files)
 	const ctx= { idl}
 	for( let step of await steps){
-		step( ctx)
+		await step( ctx)
 	}
 	return ctx
 }
