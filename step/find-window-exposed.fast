@@ -1,0 +1,10 @@
+{
+	"type": {
+		"type": "string",
+		"enum": [
+			"interface"
+		},
+	},
+	"name": {
+	}
+}
